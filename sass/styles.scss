@@ -1,0 +1,16 @@
+@import './components/main/main-styles.scss';
+@import './components/header';
+@import './components/footer';
+@import './colors';
+
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1000px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}

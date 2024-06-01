@@ -1,0 +1,25 @@
+@import '/sass/colors';
+
+#header {
+    &__content {
+        .nav-list {
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            padding-top: 35px;
+            &__item{
+                font-family: 'Playfair Display', serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-decoration: none;
+                color: map-get($colors, 'nav-bar');
+                transition: color 0.5s ease;
+                &__item:hover {
+                    color: $hover;
+                }
+            }
+        }
+    }
+}

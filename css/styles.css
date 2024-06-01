@@ -1,0 +1,99 @@
+.main__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 60px;
+  gap: 130px;
+  padding-top: 90px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+h2 {
+  color: var(--description--color);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Playfair Display", serif;
+}
+
+h5 {
+  font-family: "Ubuntu", sans-serif;
+  color: var(--small--title);
+  line-height: 30px;
+}
+
+.card {
+  display: flex;
+}
+
+p {
+  color: var(--description--color);
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+button {
+  background: none;
+  padding: 20px 40px 20px 40px;
+  color: var(--description--color);
+  font-family: "Playfair Display", serif;
+  border: 2px solid gray;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #b4d6e4;
+  border: 2px solid gray;
+}
+
+a {
+  text-decoration: none;
+  color: var(--description--color);
+  transition: color 0.5s ease;
+}
+
+a:hover {
+  color: #03A9F4;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  gap: 100px;
+  padding-top: 35px;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 1000px;
+  padding: 0px 15px;
+  margin: 0px auto;
+}

@@ -1,0 +1,56 @@
+@import '/sass/colors';
+
+.main__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 60px;
+        gap: 130px;
+        padding-top: 90px;
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            &-pod-title {
+                font-family: 'Ubuntu', sans-serif;
+                color: map-get($colors, 'small');
+                line-height: 30px;
+            }
+            &-title {
+                color: getColor('description');
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                font-family: 'Playfair Display', serif;    
+            }
+            &-desp {
+                color: getColor('description');
+                font-family: 'Playfair Display', serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+    #button-send {
+        background: none;
+        padding: 20px 40px 20px 40px;
+        color: getColor('description');
+        font-family: 'Playfair Display', serif;
+        border: 2px solid gray;
+        transition: background-color 0.3s ease;
+    }
+    #button-send:hover {
+        cursor: pointer;
+        background-color: getColor('button-back');
+        border: 2px solid gray;
+    }
+}

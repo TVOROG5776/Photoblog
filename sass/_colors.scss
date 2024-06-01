@@ -1,0 +1,10 @@
+$colors: (
+    'nav-bar': #7D7D7D,
+    'description': #626262,
+    'hover': #03A9F4,
+    'button-back': #b4d6e4,
+);
+
+@function getColor($key) {
+    @return map-get($colors, $key);
+  }
